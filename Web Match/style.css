@@ -1,0 +1,10 @@
+body {
+  min-height: 3000px;
+  font-family: 'Comfortaa', cursive;
+}
+.navbar {
+  background-color: #3d0a91;
+}
+.jumbotron {
+  padding-top: 5rem;
+}
