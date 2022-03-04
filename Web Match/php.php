@@ -11,3 +11,9 @@ if( isset($_POST["submit"]) ){
     }
 }
 ?>
+    <!-- Error Login -->
+    <?php if ( isset($error) ) : ?>
+    <script>
+        alert("Username / Password Salah!");
+    </script>
+    <?php endif; ?>
